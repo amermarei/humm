@@ -1,0 +1,284 @@
+html {
+  direction: rtl;
+}
+
+body {
+  color: #000;
+  font-family: 'Cairo', sans-serif;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.h1,
+h1 {
+  font-size: calc(1.0375rem + 1.37647vw);
+}
+
+@media (min-width: 1700px) {
+  .h1,
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.h2,
+h2 {
+  font-size: calc(0.9875rem + 0.95294vw);
+}
+
+@media (min-width: 1700px) {
+  .h2,
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.h3,
+h3 {
+  font-size: calc(0.9625rem + 0.74118vw);
+}
+
+@media (min-width: 1700px) {
+  .h3,
+  h3 {
+    font-size: 1.75rem;
+  }
+}
+
+.h4,
+h4 {
+  font-size: calc(0.9375rem + 0.52941vw);
+}
+
+@media (min-width: 1700px) {
+  .h4,
+  h4 {
+    font-size: 1.5rem;
+  }
+}
+
+.h5,
+h5 {
+  font-size: calc(0.9125rem + 0.31765vw);
+}
+
+@media (min-width: 1700px) {
+  .h5,
+  h5 {
+    font-size: 1.25rem;
+  }
+}
+
+.h6,
+h6 {
+  font-size: calc(0.8875rem + 0.10588vw);
+}
+
+@media (min-width: 1700px) {
+  .h6,
+  h6 {
+    font-size: 1rem;
+  }
+}
+
+p {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+abbr[title] {
+  cursor: help;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  -webkit-text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #ff0045;
+}
+.fs-xs {
+  font-size: calc(0.9rem + 0.21176vw);
+}
+.xs-font {
+  font-size: 14px !important;
+}
+.fs-xl {
+  font-size: calc(1.1rem + 1.90588vw);
+}
+.fs-2xl {
+  font-size: calc(1.1625rem + 2.43529vw);
+}
+.fs-lg {
+  font-size: calc(1.0375rem + 1.37647vw);
+}
+.fs-md {
+  font-size: calc(0.975rem + 0.84706vw);
+}
+.fs-sm {
+  font-size: calc(0.9375rem + 0.52941vw);
+}
+.content {
+  color: #6c757d;
+}
+.content img {
+  max-width: 100% !important;
+}
+.social span {
+  font-size: 18px;
+}
+.social span:hover {
+  color: #ff0045;
+}
+.appBtn,
+.appBtn-dark {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #000;
+  box-shadow: 4px 4px #000;
+  color: #000 !important;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1em;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 0.4em 1.5em;
+  text-align: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+.appBtn-dark {
+  border: 1px solid #fff;
+  box-shadow: 4px 4px #fff;
+  color: #fff !important;
+}
+.appBtn:hover {
+  background: #000;
+  border-color: #fff;
+  box-shadow: 5px 5px #000;
+  color: #fff !important;
+}
+.appBtn-dark:hover {
+  background: #fff;
+  border-color: #000;
+  box-shadow: 5px 5px #fff;
+  color: #000 !important;
+}
+.appBtn-light {
+  border-color: #fff;
+  box-shadow: 4px 4px #fff;
+  color: #fff;
+}
+
+.appBtn-light:hover {
+  background: #fff;
+  border-color: #000;
+  box-shadow: 5px 5px #fff;
+  color: #000;
+}
+.cardFood,
+.cardFood-dark {
+  border: 1px solid #000;
+  height: 100%;
+  padding: calc(0.88125rem + 0.05294vw);
+  position: relative;
+  transition: 0.2s ease;
+  z-index: 2;
+}
+.cardFood-dark {
+  border: 1px solid #ffffff80;
+  background-color: #000 !important;
+}
+.cardFood:hover {
+  box-shadow: 4px 4px #000;
+}
+.cardFood-dark:hover {
+  box-shadow: 4px 4px #fff;
+}
+.cardFood-category {
+  border: 1px solid #000;
+  border-radius: 20em;
+  padding: 0.5em 1em;
+  position: relative;
+  transition: 0.2s ease;
+  z-index: 8;
+}
+.cardFood-category:hover {
+  background: #000;
+  color: #fff !important;
+}
+.border {
+  border-color: #000 !important;
+}
+.embed-responsive {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.embed-responsive-16by9:before {
+  padding-top: 56.25%;
+}
+
+.embed-responsive:before {
+  content: "";
+  display: block;
+}
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive embed,
+.embed-responsive iframe,
+.embed-responsive object,
+.embed-responsive video {
+  border: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .theHeader-logo {
+    width: 8.125rem;
+  }
+}
+.theHeader-logo {
+  display: block;
+  width: 11.25rem;
+}
+@media (max-width: 991.98px) {
+  .theHeader-logo {
+    width: 8.125rem;
+  }
+}
+.bg-dark {
+  background-color: #000 !important;
+}
